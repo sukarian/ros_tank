@@ -1,0 +1,104 @@
+running egg_info
+creating build/ros_tank_py/ros_tank_py.egg-info
+writing build/ros_tank_py/ros_tank_py.egg-info/PKG-INFO
+writing dependency_links to build/ros_tank_py/ros_tank_py.egg-info/dependency_links.txt
+writing entry points to build/ros_tank_py/ros_tank_py.egg-info/entry_points.txt
+writing requirements to build/ros_tank_py/ros_tank_py.egg-info/requires.txt
+writing top-level names to build/ros_tank_py/ros_tank_py.egg-info/top_level.txt
+writing manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'
+reading manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'
+writing manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build
+creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib
+creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/kinematics_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/path_follow_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/keyboard_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/ekf_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/vx_tgt_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/ekf_node_gravcomp.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/__init__.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/h_bridge_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/bias_calc_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/serial_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/twist_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/motor_control_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/imu_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/path_publish_node_v2.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/encoder_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/interpolate_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+copying ros_tank_py/yaw_pid_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py
+running install
+running install_lib
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/kinematics_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/path_follow_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/keyboard_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/ekf_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/vx_tgt_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/ekf_node_gravcomp.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/__init__.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/h_bridge_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/bias_calc_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/serial_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/twist_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/motor_control_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/imu_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/path_publish_node_v2.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/encoder_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/interpolate_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/yaw_pid_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/kinematics_node.py to kinematics_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/path_follow_node.py to path_follow_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/keyboard_node.py to keyboard_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/ekf_node.py to ekf_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/vx_tgt_node.py to vx_tgt_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/ekf_node_gravcomp.py to ekf_node_gravcomp.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/h_bridge_node.py to h_bridge_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/bias_calc_node.py to bias_calc_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/serial_node.py to serial_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/twist_node.py to twist_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/motor_control_node.py to motor_control_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/imu_node.py to imu_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/path_publish_node_v2.py to path_publish_node_v2.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/encoder_node.py to encoder_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/interpolate_node.py to interpolate_node.cpython-312.pyc
+byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/yaw_pid_node.py to yaw_pid_node.cpython-312.pyc
+running install_data
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index/packages
+copying resource/ros_tank_py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+copying launch/path_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+copying launch/path1_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+copying launch/debug_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+copying launch/move_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+copying launch/localize_test.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch
+creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+copying config/params.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+copying config/path2.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+copying config/path1.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+copying config/square.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+copying config/paths.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config
+running install_egg_info
+Copying build/ros_tank_py/ros_tank_py.egg-info to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bias_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing ekf_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing encoder_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing h_bridge_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing imu_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing interpolate script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing keyboard_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing kinematics_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing motor_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing path_follow script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing path_publisher script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing twist_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+Installing yaw_pid script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py
+writing list of installed files to '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/install.log'

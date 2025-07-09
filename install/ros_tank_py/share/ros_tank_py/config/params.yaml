@@ -1,0 +1,8 @@
+motor_conrol_node:
+  ros_parameters:
+    Kp: 40.0
+    Ki: 15.0
+    Kd: 30.0
+serial_node:
+  ros_parameters:
+    deadband: 15

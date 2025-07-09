@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000903] (ros_tank_py) JobQueued: {'identifier': 'ros_tank_py', 'dependencies': OrderedDict()}
+[0.000992] (ros_tank_py) JobStarted: {'identifier': 'ros_tank_py'}
+[0.099668] (-) TimerEvent: {}
+[0.199951] (-) TimerEvent: {}
+[0.300234] (-) TimerEvent: {}
+[0.400563] (-) TimerEvent: {}
+[0.500838] (-) TimerEvent: {}
+[0.601116] (-) TimerEvent: {}
+[0.701355] (-) TimerEvent: {}
+[0.801610] (-) TimerEvent: {}
+[0.901856] (-) TimerEvent: {}
+[1.002125] (-) TimerEvent: {}
+[1.102462] (-) TimerEvent: {}
+[1.144354] (ros_tank_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/ros_tank_py', 'build', '--build-base', '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build', 'install', '--record', '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nathan/ros_ws/src/ros_tank_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nathan', 'SSH_CLIENT': '192.168.0.32 60245 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nathan', 'OLDPWD': '/home/nathan/ros_ws/src/ros_tank_py/ros_tank_py', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/nathan/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nathan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/nathan/ros_ws/install/ros_tank_py:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py', 'SSH_CONNECTION': '192.168.0.32 60245 192.168.0.25 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages:/home/nathan/ros_ws/install/ros_tank_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.202566] (-) TimerEvent: {}
+[1.302857] (-) TimerEvent: {}
+[1.403158] (-) TimerEvent: {}
+[1.493157] (ros_tank_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.493665] (ros_tank_py) StdoutLine: {'line': b'creating build/ros_tank_py/ros_tank_py.egg-info\n'}
+[1.503219] (-) TimerEvent: {}
+[1.516719] (ros_tank_py) StdoutLine: {'line': b'writing build/ros_tank_py/ros_tank_py.egg-info/PKG-INFO\n'}
+[1.517115] (ros_tank_py) StdoutLine: {'line': b'writing dependency_links to build/ros_tank_py/ros_tank_py.egg-info/dependency_links.txt\n'}
+[1.517454] (ros_tank_py) StdoutLine: {'line': b'writing entry points to build/ros_tank_py/ros_tank_py.egg-info/entry_points.txt\n'}
+[1.517608] (ros_tank_py) StdoutLine: {'line': b'writing requirements to build/ros_tank_py/ros_tank_py.egg-info/requires.txt\n'}
+[1.517713] (ros_tank_py) StdoutLine: {'line': b'writing top-level names to build/ros_tank_py/ros_tank_py.egg-info/top_level.txt\n'}
+[1.517868] (ros_tank_py) StdoutLine: {'line': b"writing manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'\n"}
+[1.565734] (ros_tank_py) StdoutLine: {'line': b"reading manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'\n"}
+[1.566825] (ros_tank_py) StdoutLine: {'line': b"writing manifest file 'build/ros_tank_py/ros_tank_py.egg-info/SOURCES.txt'\n"}
+[1.567040] (ros_tank_py) StdoutLine: {'line': b'running build\n'}
+[1.567149] (ros_tank_py) StdoutLine: {'line': b'running build_py\n'}
+[1.567420] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build\n'}
+[1.567531] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib\n'}
+[1.567633] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.567733] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/kinematics_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.568723] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/path_follow_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.568918] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/keyboard_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.569660] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/ekf_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.569840] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/vx_tgt_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.570440] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/ekf_node_gravcomp.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.570610] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/__init__.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.570738] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/h_bridge_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.571372] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/bias_calc_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.571973] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/serial_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.572581] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/twist_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.572744] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/motor_control_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.573394] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/imu_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.573558] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/path_publish_node_v2.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.574205] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/encoder_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.574948] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/interpolate_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.575678] (ros_tank_py) StdoutLine: {'line': b'copying ros_tank_py/yaw_pid_node.py -> /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py\n'}
+[1.576150] (ros_tank_py) StdoutLine: {'line': b'running install\n'}
+[1.585786] (ros_tank_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.603287] (-) TimerEvent: {}
+[1.610622] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.610802] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/kinematics_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611001] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/path_follow_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611185] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/keyboard_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611336] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/ekf_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611503] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/vx_tgt_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611661] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/ekf_node_gravcomp.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611801] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/__init__.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.611937] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/h_bridge_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612095] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/bias_calc_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612240] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/serial_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612384] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/twist_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612537] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/motor_control_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612688] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/imu_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612831] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/path_publish_node_v2.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.612990] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/encoder_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.613134] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/interpolate_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.613280] (ros_tank_py) StdoutLine: {'line': b'copying /home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/build/lib/ros_tank_py/yaw_pid_node.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py\n'}
+[1.614073] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/kinematics_node.py to kinematics_node.cpython-312.pyc\n'}
+[1.615093] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/path_follow_node.py to path_follow_node.cpython-312.pyc\n'}
+[1.616752] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/keyboard_node.py to keyboard_node.cpython-312.pyc\n'}
+[1.617645] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/ekf_node.py to ekf_node.cpython-312.pyc\n'}
+[1.620203] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/vx_tgt_node.py to vx_tgt_node.cpython-312.pyc\n'}
+[1.621017] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/ekf_node_gravcomp.py to ekf_node_gravcomp.cpython-312.pyc\n'}
+[1.623001] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/__init__.py to __init__.cpython-312.pyc\n'}
+[1.623256] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/h_bridge_node.py to h_bridge_node.cpython-312.pyc\n'}
+[1.625030] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/bias_calc_node.py to bias_calc_node.cpython-312.pyc\n'}
+[1.626157] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/serial_node.py to serial_node.cpython-312.pyc\n'}
+[1.627190] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/twist_node.py to twist_node.cpython-312.pyc\n'}
+[1.628414] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/motor_control_node.py to motor_control_node.cpython-312.pyc\n'}
+[1.629758] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/imu_node.py to imu_node.cpython-312.pyc\n'}
+[1.630775] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/path_publish_node_v2.py to path_publish_node_v2.cpython-312.pyc\n'}
+[1.632749] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/encoder_node.py to encoder_node.cpython-312.pyc\n'}
+[1.633530] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/interpolate_node.py to interpolate_node.cpython-312.pyc\n'}
+[1.634430] (ros_tank_py) StdoutLine: {'line': b'byte-compiling /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py/yaw_pid_node.py to yaw_pid_node.cpython-312.pyc\n'}
+[1.635613] (ros_tank_py) StdoutLine: {'line': b'running install_data\n'}
+[1.635762] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index\n'}
+[1.635874] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index\n'}
+[1.635999] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index/packages\n'}
+[1.636101] (ros_tank_py) StdoutLine: {'line': b'copying resource/ros_tank_py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ament_index/resource_index/packages\n'}
+[1.636267] (ros_tank_py) StdoutLine: {'line': b'copying package.xml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py\n'}
+[1.636419] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.636530] (ros_tank_py) StdoutLine: {'line': b'copying launch/path_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.637261] (ros_tank_py) StdoutLine: {'line': b'copying launch/path1_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.637845] (ros_tank_py) StdoutLine: {'line': b'copying launch/debug_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.638416] (ros_tank_py) StdoutLine: {'line': b'copying launch/move_launch.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.638555] (ros_tank_py) StdoutLine: {'line': b'copying launch/localize_test.py -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/launch\n'}
+[1.639102] (ros_tank_py) StdoutLine: {'line': b'creating /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.639213] (ros_tank_py) StdoutLine: {'line': b'copying config/params.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.639784] (ros_tank_py) StdoutLine: {'line': b'copying config/path2.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.640360] (ros_tank_py) StdoutLine: {'line': b'copying config/path1.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.641067] (ros_tank_py) StdoutLine: {'line': b'copying config/square.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.641645] (ros_tank_py) StdoutLine: {'line': b'copying config/paths.yaml -> /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/share/ros_tank_py/config\n'}
+[1.642345] (ros_tank_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.670566] (ros_tank_py) StdoutLine: {'line': b'Copying build/ros_tank_py/ros_tank_py.egg-info to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/python3.12/site-packages/ros_tank_py-0.0.0-py3.12.egg-info\n'}
+[1.671788] (ros_tank_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703373] (-) TimerEvent: {}
+[1.803623] (-) TimerEvent: {}
+[1.844545] (ros_tank_py) StdoutLine: {'line': b'Installing bias_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.844837] (ros_tank_py) StdoutLine: {'line': b'Installing ekf_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845030] (ros_tank_py) StdoutLine: {'line': b'Installing encoder_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845180] (ros_tank_py) StdoutLine: {'line': b'Installing h_bridge_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845326] (ros_tank_py) StdoutLine: {'line': b'Installing imu_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845452] (ros_tank_py) StdoutLine: {'line': b'Installing interpolate script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845578] (ros_tank_py) StdoutLine: {'line': b'Installing keyboard_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845703] (ros_tank_py) StdoutLine: {'line': b'Installing kinematics_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845828] (ros_tank_py) StdoutLine: {'line': b'Installing motor_listener script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.845959] (ros_tank_py) StdoutLine: {'line': b'Installing path_follow script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.846095] (ros_tank_py) StdoutLine: {'line': b'Installing path_publisher script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.846204] (ros_tank_py) StdoutLine: {'line': b'Installing twist_talker script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.846323] (ros_tank_py) StdoutLine: {'line': b'Installing yaw_pid script to /home/nathan/ros_ws/src/ros_tank_py/install/ros_tank_py/lib/ros_tank_py\n'}
+[1.846981] (ros_tank_py) StdoutLine: {'line': b"writing list of installed files to '/home/nathan/ros_ws/src/ros_tank_py/build/ros_tank_py/install.log'\n"}
+[1.903734] (-) TimerEvent: {}
+[1.923018] (ros_tank_py) CommandEnded: {'returncode': 0}
+[1.934600] (ros_tank_py) JobEnded: {'identifier': 'ros_tank_py', 'rc': 0}
+[1.935446] (-) EventReactorShutdown: {}

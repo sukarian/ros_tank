@@ -1,0 +1,14 @@
+[console_scripts]
+bias_listener = ros_tank_py.bias_calc_node:main
+ekf_talker = ros_tank_py.ekf_node:main
+encoder_talker = ros_tank_py.encoder_node:main
+h_bridge_listener = ros_tank_py.h_bridge_node:main
+imu_listener = ros_tank_py.imu_node:main
+interpolate = ros_tank_py.interpolate_node:main
+keyboard_talker = ros_tank_py.keyboard_node:main
+kinematics_listener = ros_tank_py.kinematics_node:main
+motor_listener = ros_tank_py.motor_control_node:main
+path_follow = ros_tank_py.path_follow_node:main
+path_publisher = ros_tank_py.path_publish_node_v2:main
+twist_talker = ros_tank_py.twist_node:main
+yaw_pid = ros_tank_py.yaw_pid_node:main
