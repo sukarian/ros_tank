@@ -1,0 +1,5 @@
+yaw_pid_node:
+  ros_parameters:
+    Kp_: 10.0
+    Ki_: 0.0
+    Kd_: 0.0
